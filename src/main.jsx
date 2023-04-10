@@ -6,7 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Header from './components/Header/Header';
+import Header from './components/Header/Navbar';
 import Home from './components/Body/Home/Home';
 
 
