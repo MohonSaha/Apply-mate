@@ -1,0 +1,12 @@
+.header-container{
+    padding: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: gray;
+}

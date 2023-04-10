@@ -1,0 +1,32 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.btn-primary {
+  padding: 10px 12px;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #7cb1bb, #6e32a2);
+  background-size: 600%;
+  animation: anime 8s linear infinite;
+  border: none;
+}
+
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
