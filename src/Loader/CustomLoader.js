@@ -6,6 +6,10 @@ export const customLoader = async() =>{
     const catagorys = await catagoryData.json();
 
 
-    return {catagorys};
+    const jobsData = await fetch('jobsData.json');
+    const jobs = await jobsData.json();
+
+
+    return {catagorys, jobs};
 
 }

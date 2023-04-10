@@ -3,11 +3,14 @@ import './Home.css'
 import Banner from '../../../assets/All Images/banner-img.png'
 import { useLoaderData } from 'react-router-dom';
 import Catagory from '../Catagory/Catagory';
+import Job from '../Job/Job';
 
 const Home = () => {
 
     const { catagorys } = useLoaderData();
-    console.log(catagorys);
+    // console.log(catagorys);
+    const { jobs } = useLoaderData();
+    console.log(jobs);
 
     return (
         <div>
@@ -37,6 +40,20 @@ const Home = () => {
                         ></Catagory>)
                     }
                 </div>
+            </div>
+
+
+            <div className='job-section'>
+                    <h2>Featured Jobs</h2>
+                    <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                    <div className='job-container'>
+                        {
+                            jobs.map(job=> <Job
+                                job={job}
+                                key={job.id}
+                            ></Job>)
+                        }
+                    </div>
             </div>
         </div>
     );

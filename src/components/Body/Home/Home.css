@@ -39,7 +39,7 @@
 }
 
 /* Catagory Section style */
-.catagory-section{
+.catagory-section, .job-section{
     padding: 0px 130px;
     margin: 100px 0px;
 }
@@ -51,6 +51,12 @@
 .catagory{
     display: flex;
     gap: 20px;
+}
+
+/* Job section Style */
+.job-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 
@@ -89,6 +95,11 @@
 
     .catagory{
         flex-direction: column;
+    }
+
+    .job-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
 

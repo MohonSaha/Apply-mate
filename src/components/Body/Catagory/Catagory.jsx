@@ -4,7 +4,7 @@ import './Catagory.css'
 const Catagory = ({ catagory }) => {
 
     const { category_name, category_logo, Jobs_available } = catagory;
-    console.log(catagory);
+    // console.log(catagory); 
     return (
         <div className='catagory-container'>
             
