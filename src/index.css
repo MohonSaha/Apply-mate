@@ -1,7 +1,12 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+* {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 
@@ -11,7 +16,7 @@
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
-  background: linear-gradient(-45deg, #7cb1bb, #6e32a2);
+  background: linear-gradient(-45deg, #67c7db, #6e32a2);
   background-size: 600%;
   animation: anime 8s linear infinite;
   border: none;
@@ -29,4 +34,15 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+.btn-secondary {
+  background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  border: none;
 }
