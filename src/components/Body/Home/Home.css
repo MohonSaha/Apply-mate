@@ -2,7 +2,7 @@
     padding: 25px 130px;
     height: 100vh;
     background-color: rgb(234, 226, 235);
-    margin-top: -8%;
+    margin-top: -5%;
     padding-top: 11%;
     display: flex;
     align-items: center;
@@ -38,6 +38,21 @@
     width: 550px;
 }
 
+/* Catagory Section style */
+.catagory-section{
+    padding: 0px 130px;
+    margin: 100px 0px;
+}
+
+.catagory-section h2{
+    text-align: center;
+}
+
+.catagory{
+    display: flex;
+    gap: 20px;
+}
+
 
 @media screen and (max-width:576px) {
 
@@ -69,6 +84,11 @@
         font-weight: 700;
         font-size: 40px;
         line-height: 50px;
+    }
+
+
+    .catagory{
+        flex-direction: column;
     }
 
 

@@ -6,8 +6,9 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Header from './components/Header/Navbar';
 import Home from './components/Body/Home/Home';
+import Catagory from './components/Body/Catagory/Catagory';
+import { customLoader } from './Loader/CustomLoader';
 
 
 const router = createBrowserRouter([
@@ -17,7 +18,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: customLoader
       }
     ]
   },

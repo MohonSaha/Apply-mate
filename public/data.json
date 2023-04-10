@@ -1,0 +1,27 @@
+[
+    {
+        "id": "apply-mate-lg-01",
+        "category_name": "Account & Finance",
+        "category_logo": "https://i.ibb.co/0j3NRVB/accounts-1.png",
+        "Jobs_available": "300"
+    },
+    {
+        "id": "apply-mate-lg-02",
+        "category_name": "Creative Design",
+        "category_logo": "https://i.ibb.co/MRPn18S/business-1.png",
+        "Jobs_available": "200"
+    },
+    {
+        "id": "apply-mate-lg-03",
+        "category_name": "Marketing & Sales",
+        "category_logo": "https://i.ibb.co/4V83LTC/chip-1.png",
+        "Jobs_available": "600"
+    },
+    {
+        "id": "apply-mate-lg-04",
+        "category_name": "Engineering Job",
+        "category_logo": "https://i.ibb.co/m5jFHF8/social-media-1.png",
+        "Jobs_available": "100"
+    }
+    
+]

@@ -1,0 +1,11 @@
+.catagory-container {
+    background: linear-gradient(90deg, rgba(126, 143, 254, 0.124) 0%, rgba(152, 115, 255, 0.157) 100%);
+    border-radius: 8px;
+    width: 311px;
+    height: 243px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
