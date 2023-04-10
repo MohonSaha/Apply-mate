@@ -10,7 +10,7 @@ const Home = () => {
     const { catagorys } = useLoaderData();
     // console.log(catagorys);
     const { jobs } = useLoaderData();
-    console.log(jobs);
+    // console.log(jobs);
 
     return (
         <div>

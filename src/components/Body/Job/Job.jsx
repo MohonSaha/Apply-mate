@@ -21,7 +21,7 @@ const Job = ({ job }) => {
                 <p><FontAwesomeIcon icon={faLocationDot} /> {location}</p>
                 <p><FontAwesomeIcon icon={faCircleDollarToSlot} /> Salary: {salary}</p>
             </div>
-            <Link to="/job/:id"><button className='btn-details'>View Details</button></Link>
+            <Link to={`/job/${id}`}><button className='btn-details'>View Details</button></Link>
         </div>
     );
 };

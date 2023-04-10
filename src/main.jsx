@@ -9,6 +9,7 @@ import {
 import Home from './components/Body/Home/Home';
 import Catagory from './components/Body/Catagory/Catagory';
 import { customLoader } from './Loader/CustomLoader';
+import JobDetails from './components/Body/JobDetails/JobDetails';
 
 
 const router = createBrowserRouter([
@@ -20,7 +21,13 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
         loader: customLoader
-      }
+      },
+      {
+        path: '/job/:id',
+        element: <JobDetails></JobDetails>,
+        loader: ({params})=> fetch('/jobsData.json')
+        // loader: customLoader
+      },
     ]
   },
 ]);

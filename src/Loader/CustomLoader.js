@@ -9,7 +9,7 @@ export const customLoader = async() =>{
     const jobsData = await fetch('jobsData.json');
     const jobs = await jobsData.json();
 
-
     return {catagorys, jobs};
 
 }
+
