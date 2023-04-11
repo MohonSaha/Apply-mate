@@ -44,7 +44,7 @@
     margin: 100px 0px;
 }
 
-.catagory-section h2{
+.catagory-section h2, p{
     text-align: center;
 }
 
@@ -53,11 +53,16 @@
     gap: 20px;
 }
 
-/* Job section Style */
+/* Job section style Start  */
 .job-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+
+
+
+
 
 
 .see-more{
@@ -101,12 +106,33 @@
     }
 
 
+    /* Catagory section style start  */
+    .catagory-section, .job-section{
+        padding: 25px 5%;
+        width: 100%;
+    }
+
     .catagory{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+    }
+    /* Catagory section style End  */
+
+
+
+
+    /* Job section style Start  */
+
+    .job-section{
+        text-align: center;
     }
 
     .job-container{
         display: grid;
+        /* margin: 0px auto; */
+        text-align: center;
         grid-template-columns: repeat(1, 1fr);
     }
 
