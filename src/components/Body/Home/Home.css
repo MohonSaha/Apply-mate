@@ -1,6 +1,6 @@
 .home-container {
-    padding: 25px 130px;
-    height: 100vh;
+    padding: 0px 130px;
+    /* height: 95vh; */
     background-color: rgb(234, 226, 235);
     margin-top: -5%;
     padding-top: 11%;
@@ -76,12 +76,14 @@
 @media screen and (max-width:576px) {
 
     .home-container {
-        padding: 25px 5%;
+        padding: 2px 5%;
         margin-top: -20%;
         padding-top: 31%;
         display: flex;
         flex-direction: column;
         justify-content: start;
+        /* position: relative; */
+
     }
 
     .banner-text {
@@ -93,6 +95,10 @@
         margin-right: 0px;
         margin-left: -10%;
         margin-top: 8%;
+        /* position: absolute;
+        bottom: 0; */
+        /* position: relative;
+        bottom: 87px; */
     }
 
     .banner-img img {
