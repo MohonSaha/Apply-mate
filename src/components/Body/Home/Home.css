@@ -1,6 +1,6 @@
 .home-container {
     padding: 0px 130px;
-    /* height: 95vh; */
+    width: 100%;
     background-color: rgb(234, 226, 235);
     margin-top: -5%;
     padding-top: 11%;
@@ -16,9 +16,6 @@
     margin: 25px 0px;
 }
 
-.banner-img {
-    margin-right: -70px;
-}
 
 .banner-text h1 {
     font-style: normal;
@@ -35,7 +32,8 @@
 }
 
 .banner-img img {
-    width: 550px;
+    width: 75%;
+    margin-left: 25%;
 }
 
 /* Catagory Section style */
@@ -93,16 +91,15 @@
 
     .banner-img {
         margin-right: 0px;
-        margin-left: -10%;
         margin-top: 8%;
-        /* position: absolute;
-        bottom: 0; */
-        /* position: relative;
-        bottom: 87px; */
+        margin-bottom: -5px;
     }
 
+
+
     .banner-img img {
-        width: 400px;
+        width: 100%;
+        margin-left:0;
     }
 
     .banner-text h1 {

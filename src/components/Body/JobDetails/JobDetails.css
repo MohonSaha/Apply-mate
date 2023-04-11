@@ -1,6 +1,5 @@
 .job-details-container {
     background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
-    /* width: 1920px; */
     height: 200px;
     margin-top: -6%;
     padding-top: 10%;
@@ -13,13 +12,12 @@
 .job-details {
     padding: 0px 130px;
     margin-top: 70px;
-}
-
-.job-details {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
+
 }
+
 
 .right-section div {
     background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
@@ -58,3 +56,32 @@
 .right-section .contract-info{
     margin-top: 20px;
 }
+
+
+@media screen and (max-width:576px) {
+
+    .job-details-container {
+        height: 160px;
+        margin-top: -20%;
+        padding-top: 25%;
+    }
+
+    .job-details {
+        grid-template-columns: 1fr;
+        padding: 0px 30px;
+        margin-top: 70px;
+    }
+
+    .right-section div{
+        width: 100%;
+    }
+
+    .right-section button {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+
+    
+}
+
