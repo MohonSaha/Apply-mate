@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faCircleDollarToSlot } from '@fortawesome/free-solid-svg-icons'
 
 const CartItem = ({ job }) => {
-    console.log(job);
 
     const { id, job_title, company_logo, company_name, job_type, job_time, location, salary, job_description, job_responsibility, experiences, educational_requirements, phone, email, address } = job;
 
