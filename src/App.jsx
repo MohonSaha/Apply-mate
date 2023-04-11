@@ -1,18 +1,27 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 import Header from './components/Header/Navbar';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLoaderData } from 'react-router-dom';
 import Navbar from './components/Header/Navbar';
 
+export const CartContext = createContext([]);
+
 const App = () => {
+
+
+
   return (
-    <>
+
+
+    <div>
 
       <Navbar></Navbar>
 
-      <Outlet/>
+      <Outlet />
 
       {/* <Footer></Footer> */}
-    </>
+    </div>
+
+
   );
 };
 

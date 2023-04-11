@@ -12,13 +12,9 @@
         "job_responsibility": "As a tech company, one of the key job responsibilities is to develop high-quality software products. This includes designing, coding, testing, and debugging software applications, as well as collaborating with cross-functional teams to ensure that software meets user requirements and is delivered on time.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
         "experiences": "2",
-        "contact_information":  [
-            {
-                "email":"myemail@server.com",
-                "phone":"01983478932",
-                "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh11111"
-            }
-        ]
+        "email": "myemail@server.com",
+        "phone": "01983478932",
+        "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh."
     },
     {
         "id": "apply-mate-job-02",
@@ -33,10 +29,10 @@
         "job_responsibility": "As a tech company, one of the key job responsibilities is to develop high-quality software products. This includes designing, coding, testing, and debugging software applications, as well as collaborating with cross-functional teams to ensure that software meets user requirements and is delivered on time.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
         "experiences": "2",
-        "contact_information":  [
+        "contact_information": [
             {
-                "email":"myemail@server.com",
-                "phone":"01983478932",
+                "email": "myemail@server.com",
+                "phone": "01983478932",
                 "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh11111"
             }
         ]
@@ -54,10 +50,10 @@
         "job_responsibility": "As a tech company, one of the key job responsibilities is to develop high-quality software products. This includes designing, coding, testing, and debugging software applications, as well as collaborating with cross-functional teams to ensure that software meets user requirements and is delivered on time.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
         "experiences": "2",
-        "contact_information":  [
+        "contact_information": [
             {
-                "email":"myemail@server.com",
-                "phone":"01983478932",
+                "email": "myemail@server.com",
+                "phone": "01983478932",
                 "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh11111"
             }
         ]
@@ -75,10 +71,10 @@
         "job_responsibility": "As a tech company, one of the key job responsibilities is to develop high-quality software products. This includes designing, coding, testing, and debugging software applications, as well as collaborating with cross-functional teams to ensure that software meets user requirements and is delivered on time.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
         "experiences": "2",
-        "contact_information":  [
+        "contact_information": [
             {
-                "email":"myemail@server.com",
-                "phone":"01983478932",
+                "email": "myemail@server.com",
+                "phone": "01983478932",
                 "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh11111"
             }
         ]
@@ -96,10 +92,10 @@
         "job_responsibility": "As a tech company, one of the key job responsibilities is to develop high-quality software products. This includes designing, coding, testing, and debugging software applications, as well as collaborating with cross-functional teams to ensure that software meets user requirements and is delivered on time.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
         "experiences": "2",
-        "contact_information":  [
+        "contact_information": [
             {
-                "email":"myemail@server.com",
-                "phone":"01983478932",
+                "email": "myemail@server.com",
+                "phone": "01983478932",
                 "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh11111"
             }
         ]
@@ -117,10 +113,10 @@
         "job_responsibility": "As a tech company, one of the key job responsibilities is to develop high-quality software products. This includes designing, coding, testing, and debugging software applications, as well as collaborating with cross-functional teams to ensure that software meets user requirements and is delivered on time.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
         "experiences": "2",
-        "contact_information":  [
+        "contact_information": [
             {
-                "email":"myemail@server.com",
-                "phone":"01983478932",
+                "email": "myemail@server.com",
+                "phone": "01983478932",
                 "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh11111"
             }
         ]

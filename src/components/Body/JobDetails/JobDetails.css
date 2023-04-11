@@ -1,4 +1,4 @@
-.job-details-container{
+.job-details-container {
     background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
     /* width: 1920px; */
     height: 200px;
@@ -6,11 +6,33 @@
     padding-top: 10%;
 }
 
-.job-details-container h1{
+.job-details-container h1 {
     text-align: center;
 }
 
-.job-details{
+.job-details {
     padding: 0px 130px;
-    margin-top: 90px;
+    margin-top: 70px;
+}
+
+.job-details {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.right-section div{
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+    border-radius: 8px;
+    width: 424px;
+    padding: 20px;
+}
+
+.right-section button{
+    width: 424px;
+    margin-top: 20px;
+}
+
+.right-section hr{
+    margin: 10px 0px;
 }

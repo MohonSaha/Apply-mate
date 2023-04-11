@@ -10,9 +10,9 @@ const Navbar = () => {
       <span className="nav-logo">ApplyMate</span>
       <div className={`nav-items ${isOpen && "open"}`}>
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/service">Service</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/statistics">Statistics</Link>
+        <Link to="/cart">Applied Jobs</Link>
+        <Link to="/blog">Blog</Link>
         <button className="btn-primary apply-btn">Star Applying</button>
       </div>
       <div

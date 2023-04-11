@@ -10,6 +10,7 @@ import Home from './components/Body/Home/Home';
 import Catagory from './components/Body/Catagory/Catagory';
 import { customLoader } from './Loader/CustomLoader';
 import JobDetails from './components/Body/JobDetails/JobDetails';
+import Cart from './components/Body/Cart/Cart';
 
 
 const router = createBrowserRouter([
@@ -25,9 +26,14 @@ const router = createBrowserRouter([
       {
         path: '/job/:id',
         element: <JobDetails></JobDetails>,
-        loader: ({params})=> fetch('/jobsData.json')
-        // loader: customLoader
+        loader: ({ params }) => fetch('/jobsData.json')
       },
+      {
+        path: '/cart',
+        element: <Cart></Cart>,
+        loader: customLoader
+      },
+      
     ]
   },
 ]);
