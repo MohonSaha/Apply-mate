@@ -1,0 +1,15 @@
+.chart-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 70px auto;
+}
+
+.chart-container h1{
+    margin-bottom: -60px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

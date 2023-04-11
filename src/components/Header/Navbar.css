@@ -33,10 +33,10 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -5px;
     width: 0;
-    height: 2px;
-    background: #ffffff;
+    height: 3px;
+    background: linear-gradient(90deg, #212437 0%, #8154ff 100%);
     transition: all 0.45s;
   }
   
