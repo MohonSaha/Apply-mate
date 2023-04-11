@@ -2,6 +2,7 @@ import React from 'react';
 import './CartItem.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faCircleDollarToSlot } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 const CartItem = ({ job }) => {
 
@@ -22,7 +23,8 @@ const CartItem = ({ job }) => {
                     <p><FontAwesomeIcon icon={faCircleDollarToSlot} /> Salary: {salary}</p>
                 </div>
             </div>
-            <button className='btn-secondary'>View Details</button>
+            <Link to={`/job/${id}`}><button className='btn-secondary'>View Details</button></Link>
+
         </div>
     );
 };

@@ -44,7 +44,7 @@
     margin: 100px 0px;
 }
 
-.catagory-section h2, p{
+.catagory-section h2,.catagory-section p, .job-section p, .job-section h2{
     text-align: center;
 }
 

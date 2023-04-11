@@ -59,8 +59,12 @@
 }
 
 .slide li {
-  padding : 10px;
+  padding : 10px 0px;
   cursor: pointer;
+}
+
+.slide span {
+  padding:  8px 40px ;
 }
 
 .slide li:hover{
