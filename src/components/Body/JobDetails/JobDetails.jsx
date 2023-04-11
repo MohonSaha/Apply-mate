@@ -4,6 +4,7 @@ import './JobDetails.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faCircleDollarToSlot } from '@fortawesome/free-solid-svg-icons'
 import { addToDb } from '../../../utils/fakedb';
+import toast, { Toaster } from 'react-hot-toast';
 
 const JobDetails = () => {
 
@@ -25,8 +26,9 @@ const JobDetails = () => {
     const { id, job_title, salary, job_description, job_responsibility, experiences, educational_requirements, phone, email, address } = viewJob;
 
     const handleApplyNow = (job) => {
-        alert("applied")
         addToDb(job.id)
+        toast.success('Successfully Applied!');
+
     }
 
     return (
