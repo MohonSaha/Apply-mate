@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css'
 import Banner from '../../../assets/All Images/banner-img.png'
 import { useLoaderData } from 'react-router-dom';
@@ -7,10 +7,15 @@ import Job from '../Job/Job';
 
 const Home = () => {
 
-    const { catagorys } = useLoaderData();
-    // console.log(catagorys);
-    const { jobs } = useLoaderData();
-    // console.log(jobs);
+   
+    const { catagorys,  jobs } = useLoaderData();
+     const [showAll, setShowAll] = useState(false);
+
+    
+
+    const handelShowAll = () =>{
+        setShowAll(true);
+    }
 
     return (
         <div>
@@ -48,13 +53,24 @@ const Home = () => {
                     <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
                     <div className='job-container'>
                         {
-                            jobs.map(job=> <Job
+                            jobs.slice(0, showAll ? 6 : 4).map(job=> <Job
                                 job={job}
                                 key={job.id}
                             ></Job>)
                         }
                     </div>
+
+                
             </div>
+
+
+
+            {
+                !showAll && <span onClick={handelShowAll} className='see-more'>
+                <button className='btn-primary'>See More</button>
+                    </span>
+            }
+
         </div>
     );
 };

@@ -12,6 +12,7 @@ import { customLoader } from './Loader/CustomLoader';
 import JobDetails from './components/Body/JobDetails/JobDetails';
 import Cart from './components/Body/Cart/Cart';
 import ErrorPage from './components/Body/ErrorPage/ErrorPage';
+import Statistics from './components/Body/Statistics/Statistics';
 
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
         path: '/cart',
         element: <Cart></Cart>,
         loader: customLoader
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
       },
       
     ]

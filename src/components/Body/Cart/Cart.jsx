@@ -5,12 +5,9 @@ import CartItem from '../CartItem/CartItem';
 
 const Cart = () => {
 
-    const [cartData, setCartData] = useState([]);
+   
     const { cart } = useLoaderData();
 
-    useEffect(() => {
-        setCartData(cart);
-    }, [cart])
 
     return (
         <div className='cart-container'>
@@ -27,11 +24,12 @@ const Cart = () => {
 
                 <div className='cart-review'>
                     {
-                        cartData.map(job => <CartItem
+                        cart.map(job => <CartItem
                             job={job}
                         ></CartItem>)
                     }
                 </div>
+
 
             </div>
         </div>
