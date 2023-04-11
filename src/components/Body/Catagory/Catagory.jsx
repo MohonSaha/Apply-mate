@@ -10,7 +10,7 @@ const Catagory = ({ catagory }) => {
             
             <img src={category_logo} alt="" />
             <h3>{category_name}</h3>
-            <small>{Jobs_available} Jobs Available</small>
+            <p>{Jobs_available} Jobs Available</p>
         </div>
     );
 };
