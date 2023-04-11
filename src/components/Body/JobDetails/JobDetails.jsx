@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import './JobDetails.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationDot, faCircleDollarToSlot } from '@fortawesome/free-solid-svg-icons'
+import {faCircleDollarToSlot, faBriefcase, faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { addToDb } from '../../../utils/fakedb';
 import toast, { Toaster } from 'react-hot-toast';
 
@@ -36,26 +36,26 @@ const JobDetails = () => {
             <h1>Job Details</h1>
             <div className='job-details'>
                 <div className='left-section'>
-                    <p>{id}</p>
+                    
                     <p> <strong>Job Description: </strong> {job_description}</p>
                     <p> <strong>Job Responsibility: </strong> {job_responsibility}</p>
                     <p> <strong>Educational Requirements:</strong> <br />{educational_requirements}</p>
-                    <p> <strong>Experiences::</strong> <br />{experiences} Years in this field.</p>
+                    <p> <strong>Experiences:</strong> <br />{experiences} Years in this field.</p>
 
                 </div>
                 <div className='right-section'>
                     <div>
                         <h3>Job Details</h3>
                         <hr />
-                        <p><FontAwesomeIcon icon={faCircleDollarToSlot} /> <strong>Salary:</strong> {salary}</p>
-                        <p><FontAwesomeIcon icon={faCircleDollarToSlot} /> <strong>Job Title :</strong> {job_title}</p>
+                        <p><FontAwesomeIcon className='font' icon={faCircleDollarToSlot} /> <strong>Salary:</strong> {salary}(Per Month)</p>
+                        <p><FontAwesomeIcon className='font' icon={faBriefcase} /> <strong>Job Title :</strong> {job_title}</p>
 
-                        <h3>Contact Information</h3>
+                        <h3 className='contract-info'>Contact Information</h3>
                         <hr />
 
-                        <p><FontAwesomeIcon icon={faCircleDollarToSlot} /> <strong>Phone :</strong> {phone}</p>
-                        <p><FontAwesomeIcon icon={faCircleDollarToSlot} /> <strong>Email :</strong> {email}</p>
-                        <p><FontAwesomeIcon icon={faCircleDollarToSlot} /> <strong>Address :</strong> {address}</p>
+                        <p><FontAwesomeIcon className='font' icon={faPhone} /> <strong>Phone :</strong> {phone}</p>
+                        <p><FontAwesomeIcon className='font' icon={faEnvelope} /> <strong>Email :</strong> {email}</p>
+                        <p><FontAwesomeIcon className='font' icon={faLocationDot} /> <strong>Address :</strong> {address}</p>
                     </div>
                     <button onClick={() => handleApplyNow(viewJob)} className='btn-secondary'>Apply Now</button>
 

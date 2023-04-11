@@ -3,7 +3,7 @@
         "id": "apply-mate-job-01",
         "job_title": "Software Engineer",
         "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png",
-        "company_name": "Google LLC",
+        "company_name": "Amazon LTD",
         "job_type": "Onsite",
         "job_time": "Full Time",
         "location": "Dhaka, Bangladesh",
@@ -28,20 +28,16 @@
         "job_description": "A software engineer is responsible for designing, developing, and testing software applications and systems. They collaborate with cross-functional teams to gather requirements, write code, debug, and maintain software solutions. They also troubleshoot and resolve software defects, perform code reviews, and provide technical expertise to support product development and innovation.",
         "job_responsibility": "As a tech company, one of the key job responsibilities is to develop high-quality software products. This includes designing, coding, testing, and debugging software applications, as well as collaborating with cross-functional teams to ensure that software meets user requirements and is delivered on time.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
-        "experiences": "2",
-        "contact_information": [
-            {
-                "email": "myemail@server.com",
-                "phone": "01983478932",
-                "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh11111"
-            }
-        ]
+        "experiences": "2",      
+        "email": "myemail@server.com",
+        "phone": "01983478932",
+        "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh."
     },
     {
         "id": "apply-mate-job-03",
         "job_title": "Software Engineer",
         "company_logo": "https://i.ibb.co/QQDckFS/image.png",
-        "company_name": "Google LLC",
+        "company_name": "Airbnb",
         "job_type": "Remote",
         "job_time": "Full Time",
         "location": "Dhaka, Bangladesh",
@@ -49,20 +45,16 @@
         "job_description": "A software engineer is responsible for designing, developing, and testing software applications and systems. They collaborate with cross-functional teams to gather requirements, write code, debug, and maintain software solutions. They also troubleshoot and resolve software defects, perform code reviews, and provide technical expertise to support product development and innovation.",
         "job_responsibility": "As a tech company, one of the key job responsibilities is to develop high-quality software products. This includes designing, coding, testing, and debugging software applications, as well as collaborating with cross-functional teams to ensure that software meets user requirements and is delivered on time.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
-        "experiences": "2",
-        "contact_information": [
-            {
-                "email": "myemail@server.com",
-                "phone": "01983478932",
-                "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh11111"
-            }
-        ]
+        "experiences": "2",       
+        "email": "myemail@server.com",
+        "phone": "01983478932",
+        "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh."
     },
     {
         "id": "apply-mate-job-04",
         "job_title": "Software Engineer",
         "company_logo": "https://i.ibb.co/vDgXrtg/image.png",
-        "company_name": "Google LLC",
+        "company_name": "PayPal",
         "job_type": "Onsite",
         "job_time": "Full Time",
         "location": "Dhaka, Bangladesh",
@@ -71,19 +63,15 @@
         "job_responsibility": "As a tech company, one of the key job responsibilities is to develop high-quality software products. This includes designing, coding, testing, and debugging software applications, as well as collaborating with cross-functional teams to ensure that software meets user requirements and is delivered on time.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
         "experiences": "2",
-        "contact_information": [
-            {
-                "email": "myemail@server.com",
-                "phone": "01983478932",
-                "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh11111"
-            }
-        ]
+        "email": "myemail@server.com",
+        "phone": "01983478932",
+        "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh."
     },
     {
         "id": "apply-mate-job-05",
         "job_title": "Software Engineer",
         "company_logo": "https://i.ibb.co/4sczrWY/image.png",
-        "company_name": "Google LLC",
+        "company_name": "Facebook",
         "job_type": "Onsite",
         "job_time": "Full Time",
         "location": "Dhaka, Bangladesh",
@@ -91,18 +79,14 @@
         "job_description": "A software engineer is responsible for designing, developing, and testing software applications and systems. They collaborate with cross-functional teams to gather requirements, write code, debug, and maintain software solutions. They also troubleshoot and resolve software defects, perform code reviews, and provide technical expertise to support product development and innovation.",
         "job_responsibility": "As a tech company, one of the key job responsibilities is to develop high-quality software products. This includes designing, coding, testing, and debugging software applications, as well as collaborating with cross-functional teams to ensure that software meets user requirements and is delivered on time.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
-        "experiences": "2",
-        "contact_information": [
-            {
-                "email": "myemail@server.com",
-                "phone": "01983478932",
-                "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh11111"
-            }
-        ]
+        "experiences": "2",       
+        "email": "myemail@server.com",
+        "phone": "01983478932",
+        "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh."
     },
     {
         "id": "apply-mate-job-06",
-        "job_title": "Software Engineer",
+        "job_title": "Onen Ai",
         "company_logo": "https://i.ibb.co/jTjbcm6/image.png",
         "company_name": "Google LLC",
         "job_type": "Remote",
@@ -113,12 +97,8 @@
         "job_responsibility": "As a tech company, one of the key job responsibilities is to develop high-quality software products. This includes designing, coding, testing, and debugging software applications, as well as collaborating with cross-functional teams to ensure that software meets user requirements and is delivered on time.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
         "experiences": "2",
-        "contact_information": [
-            {
-                "email": "myemail@server.com",
-                "phone": "01983478932",
-                "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh11111"
-            }
-        ]
+        "email": "myemail@server.com",
+        "phone": "01983478932",
+        "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh."
     }
 ]

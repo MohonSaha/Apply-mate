@@ -21,18 +21,40 @@
     gap: 20px;
 }
 
-.right-section div{
+.right-section div {
     background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
     border-radius: 8px;
     width: 424px;
     padding: 20px;
 }
 
-.right-section button{
+.right-section button {
     width: 424px;
     margin-top: 20px;
 }
 
-.right-section hr{
-    margin: 10px 0px;
+.right-section hr {
+    margin: 7px 0px;
+}
+
+.font {
+    color: #7E90FE;
+}
+
+.right-section p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+}
+
+.right-section strong {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323131;
+}
+
+.right-section .contract-info{
+    margin-top: 20px;
 }
