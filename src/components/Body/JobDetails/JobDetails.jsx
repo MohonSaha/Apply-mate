@@ -22,24 +22,9 @@ const JobDetails = () => {
     }, [])
 
     // console.log(viewJob);
-    const { id, job_title, company_logo, company_name, job_type, job_time, location, salary, job_description, job_responsibility, experiences, educational_requirements, phone, email, address } = viewJob;
+    const { id, job_title, salary, job_description, job_responsibility, experiences, educational_requirements, phone, email, address } = viewJob;
 
     const handleApplyNow = (job) => {
-        // let newCart = [];
-        // const exist = cartArr.find(existingProduct => existingProduct.id === product.id)
-
-        // if (!exist) {
-        //     product.quantity = 1;
-        //     newCart = [...cartArr, product]
-        // }
-        // else {
-        //     const rest = cartArr.filter(existingProduct => existingProduct.id !== product.id)
-        //     exist.quantity = exist.quantity + 1;
-        //     newCart = [...rest, exist]
-        // }
-
-        // toast.success('Successfully Added');
-        // setCartArr(newCart)
         alert("applied")
         addToDb(job.id)
     }

@@ -11,12 +11,14 @@ import Catagory from './components/Body/Catagory/Catagory';
 import { customLoader } from './Loader/CustomLoader';
 import JobDetails from './components/Body/JobDetails/JobDetails';
 import Cart from './components/Body/Cart/Cart';
+import ErrorPage from './components/Body/ErrorPage/ErrorPage';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    // errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",

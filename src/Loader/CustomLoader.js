@@ -3,11 +3,11 @@ import { getShoppingCart } from "../utils/fakedb";
 export const customLoader = async() =>{
 
 
-    const catagoryData = await fetch('data.json');
+    const catagoryData = await fetch('/data.json');
     const catagorys = await catagoryData.json();
 
 
-    const jobsData = await fetch('jobsData.json');
+    const jobsData = await fetch('/jobsData.json');
     const jobs = await jobsData.json();
 
 
