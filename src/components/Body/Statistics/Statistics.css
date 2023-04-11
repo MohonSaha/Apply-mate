@@ -4,6 +4,8 @@
     justify-content: space-evenly;
     flex-direction: column;
     margin: 70px auto;
+    position: relative;
+    z-index: -1;
 }
 
 .chart-container h1{
@@ -12,4 +14,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+@media screen and (max-width:576px) {
+
+    .recharts-legend-wrapper{
+        margin-bottom: -50px;
+    }
+
 }

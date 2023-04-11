@@ -52,6 +52,7 @@ const Statistics = () => {
             <ResponsiveContainer>
                 <PieChart className="chart" width={600} height={400}>
                     <Pie
+                    className="pie-chart"
                         data={data}
                         // cx={600}
                         cy={200}
@@ -66,7 +67,7 @@ const Statistics = () => {
                         ))}
                     </Pie>
                     <Tooltip></Tooltip>
-                    <Legend></Legend>
+                    <Legend className="legend"></Legend>
                 </PieChart>
 
             </ResponsiveContainer>

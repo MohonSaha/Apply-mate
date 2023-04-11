@@ -1,44 +1,44 @@
 .cart-container {
-    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
-    height: 200px;
-    margin-top: -6%;
-    padding-top: 10%;
+  background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+  height: 200px;
+  margin-top: -6%;
+  padding-top: 10%;
 }
 
-.cart-container  h1 {
-    text-align: center;
+.cart-container h1 {
+  text-align: center;
 }
 
 .cart-details {
-    padding: 0px 130px;
-    margin-top: 70px;
+  padding: 0px 130px;
+  margin-top: 70px;
 }
 
-.cart-details{
+.cart-details {
   width: 100%;
 }
 
 
 /* Cart soritng class Start */
 
-.sort-container{
+.sort-container {
   display: flex;
   align-content: flex-end;
   justify-content: flex-end;
 }
 
 
-.cart-sort{
+.cart-sort {
   background: #d9d9d9;
   border-radius: 5px;
 }
 
 .sort-title {
-  padding : 10px;
-  background : #c1bebe; 
-  color : rgba(23, 23, 23, 0.754);
-  font-size : 1.3em;
-  cursor : pointer;
+  padding: 10px;
+  background: #c1bebe;
+  color: rgba(23, 23, 23, 0.754);
+  font-size: 1.3em;
+  cursor: pointer;
   display: block;
   border-radius: 5px;
 }
@@ -50,38 +50,60 @@
 }
 
 .slide {
-  clear:both;
-  width:100%;
-  height:0px;
+  clear: both;
+  width: 100%;
+  height: 0px;
   overflow: hidden;
   text-align: center;
   transition: height .4s ease;
 }
 
 .slide li {
-  padding : 10px 0px;
+  padding: 10px 0px;
   cursor: pointer;
 }
 
 .slide span {
-  padding:  8px 40px ;
+  padding: 8px 40px;
 }
 
-.slide li:hover{
+.slide li:hover {
   background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
 }
 
-#touch {position: absolute; opacity: 0; height: 0px;}    
+#touch {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
 
-#touch:checked + .slide {
+#touch:checked+.slide {
   height: 85px;
-} 
+}
 
 /* Cart sorting class end  */
 
-.cart-review{
-    margin-top: 30px;
+.cart-review {
+  margin-top: 30px;
 }
 
 
-  
+
+
+@media screen and (max-width:576px) {
+
+  .cart-container {
+    height: 160px;
+    margin-top: -20%;
+    padding-top: 25%;
+  }
+
+  .cart-details {
+    padding: 0px 30px;
+    margin-top: 70px;
+  }
+
+
+
+
+}
