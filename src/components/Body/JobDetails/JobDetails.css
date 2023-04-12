@@ -39,14 +39,22 @@
     color: #7E90FE;
 }
 
-.right-section p {
+.right-section p{
     font-weight: 500;
     font-size: 20px;
     line-height: 27px;
     color: #757575;
+    margin-top: 6px;
 }
 
-.right-section strong {
+.left-section p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #757575;
+}
+
+.right-section strong, .left-section strong {
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;

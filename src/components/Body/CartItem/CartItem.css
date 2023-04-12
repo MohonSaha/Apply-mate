@@ -74,9 +74,13 @@
         justify-content: center;
     }
 
+    .review-item{
+        padding: 30px 10px;
+    }
+
     .review-item img {
         width: 75%;
-        background: #e7e5e5;
+        background: #ffffff;
         border-radius: 8px;
         display: flex;
         padding: 0px 0px;
