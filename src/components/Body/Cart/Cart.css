@@ -1,8 +1,9 @@
 .cart-container {
-  background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+  background: linear-gradient(90deg, rgba(126, 143, 254, 0.12) 0%, rgba(152, 115, 255, 0.12) 100%);
   height: 200px;
   margin-top: -6%;
   padding-top: 10%;
+  margin-bottom: 45%;
 }
 
 .cart-container h1 {

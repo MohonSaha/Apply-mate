@@ -13,7 +13,7 @@ const CartItem = ({ job }) => {
             <img src={company_logo} alt="" />
             <div className='review-details'>
                 <h3 className='job-title'>{job_title}</h3>
-                <p>{company_name} </p>
+                <p className='company-name'>{company_name} </p>
                 <div>
                     <button className='btn-outline'>{job_type}</button>
                     <button className='btn-outline time-btn'>{job_time}</button>

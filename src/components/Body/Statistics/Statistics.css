@@ -5,7 +5,7 @@
     flex-direction: column;
     margin: 70px auto;
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .chart-container h1{
@@ -20,6 +20,17 @@
 
     .recharts-legend-wrapper{
         margin-bottom: -50px;
+        padding: 0px 2px;
     }
+
+    .recharts-legend-item-text{
+        margin: 65px 0px;
+    }
+
+
+    .recharts-tooltip-wrapper{
+        z-index: 2;
+    }
+
 
 }

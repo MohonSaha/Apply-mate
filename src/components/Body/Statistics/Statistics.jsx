@@ -1,6 +1,6 @@
 import "./Statistics.css";
-import React, { useCallback, useState } from "react";
-import { PieChart, Pie, Cell, Tooltip, Legend, XAxis, YAxis, ResponsiveContainer } from "recharts";
+import React from "react";
+import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from "recharts";
 
 const data = [
     { name: "Assingment-1", value: 40 },
@@ -36,7 +36,7 @@ const renderCustomizedLabel = ({
             textAnchor={x > cx ? "start" : "end"}
             dominantBaseline="central"
         >
-            {`${(percent * 100).toFixed(0)}%`}
+            {`${(percent * 602).toFixed(0)}%`}
         </text>
     );
 };
@@ -67,7 +67,7 @@ const Statistics = () => {
                         ))}
                     </Pie>
                     <Tooltip></Tooltip>
-                    <Legend className="legend"></Legend>
+                    <Legend></Legend>
                 </PieChart>
 
             </ResponsiveContainer>
