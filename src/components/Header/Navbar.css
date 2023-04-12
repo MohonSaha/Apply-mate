@@ -56,7 +56,6 @@
 
     .Navbar{
       padding: 0px 20px;
-      /* position: fixed; */
     }
 
     .apply-btn {
@@ -75,6 +74,7 @@
       height: 100%;
       transform: translateX(-100%);
       transition: all .45s;
+      z-index: 2;
     }
   
     .Navbar > .nav-items > a::before {
